@@ -4,6 +4,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{357F2862-594
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextTrain.Client", "src\NextTrain.Client\NextTrain.Client.csproj", "{9BF40BA3-6D0D-4E45-A3B1-79300564F233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextTrain.Console", "src\NextTrain.Console\NextTrain.Console.csproj", "{97CF2C2F-9E76-4C64-976B-C25DAD339F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextTrain.Router", "src\NextTrain.Router\NextTrain.Router.csproj", "{3A21663C-085F-43E0-92F1-C1CBF2F9EFED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +15,21 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9BF40BA3-6D0D-4E45-A3B1-79300564F233} = {357F2862-594C-46C9-93FB-55FA01CAB70C}
+		{97CF2C2F-9E76-4C64-976B-C25DAD339F9D} = {357F2862-594C-46C9-93FB-55FA01CAB70C}
+		{3A21663C-085F-43E0-92F1-C1CBF2F9EFED} = {357F2862-594C-46C9-93FB-55FA01CAB70C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9BF40BA3-6D0D-4E45-A3B1-79300564F233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9BF40BA3-6D0D-4E45-A3B1-79300564F233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF40BA3-6D0D-4E45-A3B1-79300564F233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF40BA3-6D0D-4E45-A3B1-79300564F233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CF2C2F-9E76-4C64-976B-C25DAD339F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CF2C2F-9E76-4C64-976B-C25DAD339F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CF2C2F-9E76-4C64-976B-C25DAD339F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CF2C2F-9E76-4C64-976B-C25DAD339F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A21663C-085F-43E0-92F1-C1CBF2F9EFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A21663C-085F-43E0-92F1-C1CBF2F9EFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A21663C-085F-43E0-92F1-C1CBF2F9EFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A21663C-085F-43E0-92F1-C1CBF2F9EFED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
